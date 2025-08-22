@@ -1,14 +1,21 @@
 #include <iostream>
-#include "matematicas.h"
+#include "Matematicas.h"  // Incluir el archivo de cabecera con las funciones
 
-int main() {
-    int x = 20;
-    int y = 2;
+int main()
+{
+    int a, b;
 
-    std::cout << "Suma: " << sumar(x, y) << std::endl;
-    std::cout << "Resta: " << restar(x, y) << std::endl;
-    std::cout << "multiplicacion: " << multiplicar(x, y) << std::endl;
-    std::cout << "Division: " << dividir(x, y) << std::endl;
+    // Pedir al usuario que ingrese los números
+    std::cout << "Ingrese el primer #: ";
+    std::cin >> a;
+    std::cout << "Ingrese el segundo #: ";
+    std::cin >> b;
+
+    // Llamar a las funciones y mostrar resultados
+    std::cout << "Suma: " << sumar(a, b) << std::endl;
+    std::cout << "Resta: " << restar(a, b) << std::endl;
+    std::cout << "Multiplicacion: " << multiplicar(a, b) << std::endl;
+    std::cout << "Division: " << dividir(a, b) << std::endl;
 
     return 0;
 }
