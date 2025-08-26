@@ -3,4 +3,7 @@ project(untitled1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled1 main.cpp matematicas.cpp)
+add_executable(untitled1 main.cpp matematicas.cpp
+        matriz_utils.h
+        matriz_utils.cpp
+        Calculadora_kwaii.cpp)

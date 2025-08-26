@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Matematicas.h"  // Incluir el archivo de cabecera con las funciones
+/* aqui para que no interfiera con lo nuevo pero no borrarlo :)
 
 int main()
 {
@@ -19,3 +20,5 @@ int main()
 
     return 0;
 }
+
+*/
